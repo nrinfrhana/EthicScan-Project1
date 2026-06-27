@@ -1,0 +1,28 @@
+package com.example.a212019_nurinfarhana_drrimaniza_project1.ui.theme
+
+import androidx.compose.material3.Typography
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
+import com.example.a212019_nurinfarhana_drrimaniza_project1.R
+
+val DmSans = FontFamily(
+    Font(R.font.dm_sans_regular, FontWeight.Normal),
+    Font(R.font.dm_sans_bold,    FontWeight.Bold)
+)
+
+val Typography = Typography(
+    displaySmall  = TextStyle(fontFamily = DmSans, fontWeight = FontWeight.Bold,   fontSize = 28.sp, lineHeight = 34.sp),
+    headlineMedium= TextStyle(fontFamily = DmSans, fontWeight = FontWeight.Bold,   fontSize = 24.sp, lineHeight = 30.sp),
+    headlineSmall = TextStyle(fontFamily = DmSans, fontWeight = FontWeight.Bold,   fontSize = 20.sp, lineHeight = 26.sp),
+    titleLarge    = TextStyle(fontFamily = DmSans, fontWeight = FontWeight.Bold,   fontSize = 18.sp, lineHeight = 24.sp),
+    titleMedium   = TextStyle(fontFamily = DmSans, fontWeight = FontWeight.Bold,   fontSize = 16.sp, lineHeight = 22.sp),
+    titleSmall    = TextStyle(fontFamily = DmSans, fontWeight = FontWeight.Normal, fontSize = 14.sp, lineHeight = 20.sp),
+    bodyLarge     = TextStyle(fontFamily = DmSans, fontWeight = FontWeight.Normal, fontSize = 16.sp, lineHeight = 24.sp),
+    bodyMedium    = TextStyle(fontFamily = DmSans, fontWeight = FontWeight.Normal, fontSize = 14.sp, lineHeight = 20.sp),
+    bodySmall     = TextStyle(fontFamily = DmSans, fontWeight = FontWeight.Normal, fontSize = 12.sp, lineHeight = 18.sp),
+    labelMedium   = TextStyle(fontFamily = DmSans, fontWeight = FontWeight.Bold,   fontSize = 12.sp, lineHeight = 16.sp),
+    labelSmall    = TextStyle(fontFamily = DmSans, fontWeight = FontWeight.Normal, fontSize = 11.sp, lineHeight = 15.sp),
+)
